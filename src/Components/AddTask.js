@@ -2,8 +2,7 @@ import React, {useState} from 'react'
 
 function AddTask({onAddTask})
 {
-const submit= (e)=>{
-    
+const submit= (e)=>{   
 e.preventDefault();
 onAddTask(task, desc);
 }
